@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/takehironegishi/bookings/pkg/config"
-	"github.com/takehironegishi/bookings/pkg/models"
-	"github.com/takehironegishi/bookings/pkg/render"
+	"github.com/takehironegishi/bookings/internal/config"
+	"github.com/takehironegishi/bookings/internal/models"
+	"github.com/takehironegishi/bookings/internal/render"
 )
 
 // Repo is the repository used by the handlers
